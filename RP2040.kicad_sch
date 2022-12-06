@@ -1038,7 +1038,6 @@
     )
   )
 
-
   (junction (at 187.325 41.91) (diameter 0) (color 0 0 0 0)
     (uuid 00036662-fa99-4284-af32-cf49578c390a)
   )
@@ -2158,7 +2157,7 @@
     (uuid 0692de5f-2423-4dd0-a07b-d18c34284fdf)
     (property "Reference" "SW2" (id 0) (at 34.925 115.57 0))
     (property "Value" "SW_Push" (id 1) (at 34.925 118.11 0))
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (id 2) (at 34.925 118.745 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342" (id 2) (at 34.925 118.745 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 34.925 118.745 0)
@@ -2463,7 +2462,7 @@
     (uuid 4553d9ef-e5ac-4c89-b061-b30ba60abcbd)
     (property "Reference" "SW1" (id 0) (at 22.86 77.47 0))
     (property "Value" "SW_Push" (id 1) (at 22.86 80.01 0))
-    (property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" (id 2) (at 22.86 80.645 0)
+    (property "Footprint" "Button_Switch_SMD:SW_SPST_TL3342" (id 2) (at 22.86 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 22.86 80.645 0)

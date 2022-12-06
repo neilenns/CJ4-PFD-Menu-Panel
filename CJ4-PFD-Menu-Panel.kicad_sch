@@ -698,7 +698,6 @@
     )
   )
 
-
   (junction (at 85.725 39.37) (diameter 0) (color 0 0 0 0)
     (uuid 00355269-184b-43d5-8393-84607fe36fdb)
   )
@@ -2793,7 +2792,7 @@
     (property "Value" "BARO encoder" (id 1) (at 215.265 20.9549 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Custom_Footprints:EN11-HSM1BF20 panel mount" (id 2) (at 212.09 19.685 0)
+    (property "Footprint" "Custom_Footprints:EN11-HSM1BF20_PM" (id 2) (at 212.09 19.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 212.09 19.685 0)
@@ -3125,7 +3124,7 @@
       (reference "H4") (unit 1) (value "Board mount") (footprint "MountingHole:MountingHole_3.2mm_M3")
     )
     (path "/fbf71956-95c2-45ee-90f3-fa3bc70be935"
-      (reference "H5") (unit 1) (value "BARO encoder") (footprint "Custom_Footprints:EN11-HSM1BF20 panel mount")
+      (reference "H5") (unit 1) (value "BARO encoder") (footprint "Custom_Footprints:EN11-HSM1BF20_PM")
     )
     (path "/0d7d212f-72a7-4686-8e1c-59df833b2d14"
       (reference "H6") (unit 1) (value "MENU ADV and DATA encoder") (footprint "Custom_Footprints:EC11E-BB24C03_PM")
@@ -3185,10 +3184,10 @@
       (reference "R7") (unit 1) (value "R_Small") (footprint "Custom_Footprints:Perfect_0402")
     )
     (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/4553d9ef-e5ac-4c89-b061-b30ba60abcbd"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
     )
     (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/0692de5f-2423-4dd0-a07b-d18c34284fdf"
-      (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm")
+      (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_TL3342")
     )
     (path "/f541c5dd-6c97-4713-864b-de0d8fcb1e48"
       (reference "SW3") (unit 1) (value "SW_PUSH_LED") (footprint "Custom_Footprints:SW_PUSH_LED_SMD")
