@@ -442,7 +442,7 @@
     ]
   ],
   "text_variables": {
-    "date": "2022-12-12",
-    "version": "unreleased"
+    "DATE": "2022-12-12",
+    "VERSION": "unreleased"
   }
 }

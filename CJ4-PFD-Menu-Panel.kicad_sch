@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (date "${date}")
-    (rev "${version}")
+    (date "${DATE}")
+    (rev "${VERSION}")
   )
 
   (lib_symbols
@@ -2603,16 +2603,22 @@
   (symbol (lib_id "Device:C_Small") (at 128.905 26.035 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 935a56df-84d4-49db-855e-593d55487c2c)
-    (property "Reference" "C1" (id 0) (at 131.445 24.7712 0)
+    (property "Reference" "C1" (id 0) (at 132.08 24.7712 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (id 1) (at 131.445 27.3112 0)
+    (property "Value" "1uF" (id 1) (at 132.08 27.3112 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Custom_Footprints:Perfect_0402" (id 2) (at 128.905 26.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 128.905 26.035 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0402" (id 4) (at 128.905 26.035 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C52923" (id 5) (at 128.905 26.035 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 01cbfc86-4fd1-4ee8-b8d1-bc2378c594eb))
@@ -3414,7 +3420,7 @@
       (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
     (path "/935a56df-84d4-49db-855e-593d55487c2c"
-      (reference "C1") (unit 1) (value "100nF") (footprint "Custom_Footprints:Perfect_0402")
+      (reference "C1") (unit 1) (value "1uF") (footprint "Custom_Footprints:Perfect_0402")
     )
     (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/52cf6701-e0f8-4481-827c-0fbd4e9bec67"
       (reference "C5") (unit 1) (value "10pF") (footprint "Custom_Footprints:Perfect_0402")
@@ -3423,13 +3429,13 @@
       (reference "C6") (unit 1) (value "10pF") (footprint "Custom_Footprints:Perfect_0402")
     )
     (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/d231b70d-8a29-4e78-a17c-75abb025b07e"
-      (reference "C7") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C7") (unit 1) (value "1uF") (footprint "Custom_Footprints:Perfect_0402")
     )
     (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/4d7a5022-36cd-4f67-bb82-a9afd32a776e"
-      (reference "C8") (unit 1) (value "100nF") (footprint "Custom_Footprints:Perfect_0402")
+      (reference "C8") (unit 1) (value "1uF") (footprint "Custom_Footprints:Perfect_0402")
     )
     (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/45801e50-45ec-4892-af18-34a3e6ab3fad"
-      (reference "C9") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C9") (unit 1) (value "1uF") (footprint "Custom_Footprints:Perfect_0402")
     )
     (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/f7e200ad-0805-42f5-9f32-792f4044fcf7"
       (reference "C10") (unit 1) (value "1uF") (footprint "Custom_Footprints:Perfect_0402")
