@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (date "${DATE}")
-    (rev "${VERSION}")
+    (date "${date}")
+    (rev "${version}")
   )
 
   (lib_symbols
@@ -2075,7 +2075,7 @@
   (symbol (lib_id "Connector:USB_B_Micro") (at 22.225 29.845 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 07a812d7-6fc2-44ce-976b-6fbc446a3d4f)
-    (property "Reference" "J6" (id 0) (at 18.415 19.685 0)
+    (property "Reference" "J4" (id 0) (at 18.415 19.685 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "USB_B_Micro" (id 1) (at 36.195 40.005 0)
