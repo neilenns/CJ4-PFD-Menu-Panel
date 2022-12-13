@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name "Tag-Connect")(type "Legacy")(uri "C:/Users/neile/Downloads/kicad-tag-connect-main/kicad-tag-connect-main/Tag-Connect.lib")(options "")(descr ""))
 )
