@@ -442,7 +442,8 @@
     ]
   ],
   "text_variables": {
-    "DATE": "2022-12-12",
-    "VERSION": "unreleased"
+    "DATE": "2022-12-13",
+    "KICAD6_USER_COMPONENTS_DIR": "${KIPRJMOD}/KiCad6-Components",
+    "VERSION": ""
   }
 }

@@ -6,6 +6,7 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_pro-bak
 *.pro-bak
 *.sch-bak
 *~
