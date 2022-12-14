@@ -2165,16 +2165,22 @@
   (symbol (lib_id "Device:R_Small") (at 177.8 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 178a1d26-b45f-4eb6-866a-0570a0a1d0b5)
-    (property "Reference" "R1" (id 0) (at 179.705 41.9099 0)
+    (property "Reference" "R1" (id 0) (at 180.34 41.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_Small" (id 1) (at 179.705 44.4499 0)
+    (property "Value" "3k" (id 1) (at 180.34 44.4499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Custom_Footprints:Perfect_0402" (id 2) (at 177.8 43.18 0)
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 177.8 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 177.8 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "JLC" "0805" (id 4) (at 177.8 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C17661" (id 5) (at 177.8 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9873f90c-b01c-47ec-81ea-bb563f2b67dc))
@@ -3379,9 +3385,6 @@
     (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/3c0d1729-78ee-4d33-bce7-cc51fe5e484f"
       (reference "#PWR042") (unit 1) (value "GND") (footprint "")
     )
-    (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/7a57c193-8053-4916-9ab0-4158f2cee9c7"
-      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
     (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/9a22861a-f0d5-45ff-9510-d64aac14d2d5"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
@@ -3524,7 +3527,7 @@
       (reference "J6") (unit 1) (value "TC2030-IDC-NL") (footprint "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical")
     )
     (path "/178a1d26-b45f-4eb6-866a-0570a0a1d0b5"
-      (reference "R1") (unit 1) (value "R_Small") (footprint "Custom_Footprints:Perfect_0402")
+      (reference "R1") (unit 1) (value "3k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/8f83e7e3-f3a2-4d64-8dcf-30acf74c6e09"
       (reference "R2") (unit 1) (value "1k") (footprint "Custom_Footprints:Perfect_0402")
@@ -3610,8 +3613,8 @@
     (path "/bb27f4a5-797a-4556-a6e3-9cfade4cd0cc"
       (reference "U1") (unit 1) (value "DM13A") (footprint "Package_SO:SSOP-24_3.9x8.7mm_P0.635mm")
     )
-    (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/0c8c7e27-e47b-4e84-a415-d07b5eda3657"
-      (reference "U2") (unit 1) (value "XC6206P332MR") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/a7e4ce5c-98fb-48d0-9ff3-cdec8a457bcf"
+      (reference "U2") (unit 1) (value "AMS1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
     )
     (path "/f2c43eeb-76da-49f4-b8e6-cd74ebb3190b/c5576968-737d-44d3-a965-13d04b7e79e3"
       (reference "U6") (unit 1) (value "W25Q128JVS") (footprint "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm")
